@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh">
+<head>
+      <meta charset="utf-8">
+      <title>找回密码</title>
+	  <link rel="stylesheet" href="../css/zhaohuimima.css">
+	
+</head>
+
+<body>
+	<!--图片-->
+	   <div class="picture">
+	        <img src="img/2.jpg" width="480" height="505" alt="月经贫困"/>
+	   </div>
+	
+    <!--框-->	
+       <div class="border">
+	
+    <!--找回密码-->
+	   <h2 class="article">找回密码</h2>
+	
+    <!--手机号-->
+	   <form>
+             <input type="text" name="手机号" placeholder="手机号" onkeyup="this.value=this.value.replace(/[^0-9]/g,'')" oninput="if(value.length>11)value=value.slice(0,11)">
+       </form>
+	
+    <!--验证码-->
+		<form>
+             <input type="password" name="验证码" placeholder="验证码" onkeyup="this.value=this.value.replace(/[^0-9]/g,'')" oninput="if(value.length>4)value=value.slice(0,4)">
+        </form>
+		
+    <!--提交-->
+		<form action="denglu-201918340316-lixiaoxu.html"><input type="submit" onclick="alert('找回成功！')" value="提交"></form>
+		
+        </div>
+	
+</body>
+</html>

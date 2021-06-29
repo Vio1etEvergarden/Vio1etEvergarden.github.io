@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh">
+<head>
+   <meta charset="utf-8">
+   <title>新用户注册</title>
+   <link rel="stylesheet" href="../css/zhuce.css">
+</head>
+	
+
+<body>
+	
+	<!--整体-->
+	<div class="include">
+	
+	<!--图片-->
+	<div class="picture">
+	     <img src="img/2.jpg" width="605" height="630" alt="月经贫困"/>
+	</div>
+	
+	<!--框-->
+    <div class="border">
+		
+    <!--用户注册-->
+    <h1 class="sign">用户注册</h1>
+		
+	<!--手机号-->
+	    <form>
+             <input type="text" name="手机号" placeholder="手机号" onkeyup="this.value=this.value.replace(/[^0-9]/g,'')" oninput="if(value.length>11)value=value.slice(0,11)">
+        </form>
+	
+	<!--用户名-->
+		<form>
+             <input type="text" name="用户名" placeholder="用户名">
+        </form>
+     
+	<!--提示-->
+	    <div class="introduce">
+	         <h3>（用户名可包含数字、英文、符号）</h3>
+	     </div>
+	
+	<!--密码-->
+	    <form>
+			 <input type="password" name="密码" placeholder="密码" onKeyUp="value=value.replace(/[^\d|chun]/g,'')">
+			
+			 <div class="introduce">
+	         	  <h3>（密码仅包含数字，不含英文、符号）</h3>
+	         </div>
+			
+        </form>
+	   
+	<!--提交-->
+		<form action="denglu-201918340316-lixiaoxu.html">
+		      <input type="submit" onclick="alert('恭喜您注册成功！')" value="提交">
+		</form>
+		
+	</div>
+		
+	</div>
+</body>
+</html>
