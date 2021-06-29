@@ -1,0 +1,139 @@
+ @charset "utf-8";
+/* CSS Document */
+/*背景颜色*/
+			.bg{background-color: #937B7F}
+		/*导航栏*/
+			ul {list-style-type:none;
+				margin:-5px;
+  				padding: 3px;
+  				overflow: hidden;
+				background:rgba(0,0,0,0.43);
+				
+			}
+			/*浮动方式*/
+			.left{float:left}
+			.right{float:right}
+			li {float: left;}
+			/*导航栏方块*/
+			li a {display:block;
+				  font-family:"思源黑体 CN Heavy";
+				  font-size:18px;
+  				  color:#A2A2A2;
+  				  padding: 8px 20px;
+				  text-align: center;
+  				  text-decoration: none;
+			}
+			/*当前停留导航栏字体颜色*/
+			li a:hover:not(.active) {color:#F6F6F6}
+						   .active {color:#F6F6F6}
+			/*首页大图*/
+			
+			/*标题*/
+			.MainTitle{
+				color:#D2C3C3;
+				font-family:'字酷堂清楷 简';
+				text-shadow: 0px 0px 4px ;
+				font-size:50px;
+				text-align:center;
+				border-bottom-style:solid;
+				border-bottom-color: #C8BBBC;
+				
+			}
+			/*小节*/
+			.span{
+				background-color:rgba(239,228,228,0.40);
+				margin:0 auto;   
+				width: 900px;
+				height: 120px;
+				padding: 90px;
+ 				margin-top: 2px;
+				padding-top: 1px;
+				text-align:justify;
+				font-family:"楷体";
+				font-size: 20px;
+				text-indent: 2em;/*缩进两字符*/
+				line-height: 30px;
+				
+			}
+			/*大段文字底框*/
+			.bigspan{
+				background-color:rgba(239,228,228,0.40);
+				margin:0 auto;   
+				width: 900px;
+				height: 220px;
+				padding: 90px;
+ 				margin-top: 2px;
+				padding-top: 1px;
+				text-align:justify;
+				font-family:"楷体";
+				font-size: 20px;
+				text-indent: 2em;/*缩进两字符*/
+				line-height: 30px;
+				
+			}
+			/*图片文字标题*/
+			.p{
+				text-align: center;
+				font-size: 20px;
+				font-family: "黑体";
+				
+			}
+			/*放置图片框 时间线*/
+			.content{
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 400px;
+			  }
+			/*放置图片框 地图调节*/
+			.card{
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 250px;
+			}
+			/*图片框 价格图*/
+			.secCard{
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 420px;
+				
+			}
+			/*图片框 收入占比图*/
+			.secContent{
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 520px;
+			}
+			/*税率图背景框设计*/
+			.secbg{
+				background-color:rgba(34,32,32,0.56);
+				margin:0 auto;   
+				width: 700px;
+				height: 600px;
+				padding: 90px;
+ 				margin-top: 0px;
+				padding-top: 0px;
+				
+			}
+			/*数据来源部分*/
+			.origin{
+				background-color:transparent;
+				margin:0 auto;   
+				width: 800px;
+				height:500px;
+				padding: 50px;
+ 				margin-top: 2px;
+				padding-top: 1px;
+				text-align:left;
+				font-family:"宋体";
+				font-size: 14px;
+				line-height: 25px;
+			}
+			   /*footer*/
+			
+			.footer{
+				color:white;
+				font-family:"Adobe 宋体 Std L";
+				font-size:12px;
+				margin-left:620px;
+				margin-bottom: 30px;
+			}

@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+			/*导航栏*/
+			ul {list-style-type:none;
+				margin:-5px;
+  				padding: 3px;
+  				overflow: hidden;
+				background:rgba(0,0,0,0.43);
+				}
+			/*浮动方式*/
+			.left{float:left;
+				margin-bottom: 1%;
+				}
+			.right{float:right;
+					}
+			li {float: left;}
+			/*导航栏方块*/
+			li a {display:block;
+				  font-family:"思源黑体 CN Heavy";
+				  font-size:18px;
+  				  color:#A2A2A2;
+  				  padding: 8px 20px;
+				  text-align: center;
+  				  text-decoration: none;
+			}
+			/*当前停留导航栏字体颜色*/
+			li a:hover:not(.active) {color:#F6F6F6}
+						   .active {color:#F6F6F6}
+			/*表单边缘*/
+			fieldset{border: none}
+			body{background:#937B7F;
+				 background:url("../201918340317-liying-1501/img/2222.jpg") ;
+				background-size: 100%}
+			/*问卷调查选项内容*/
+			.b-container{margin-bottom: 4%;
+						color: #252525
+						}
+			/*问卷调查题目*/
+			.b-title{margin-bottom: 2%;
+					color: #0A0909;}
+			/*提交按钮*/
+			input[type="submit"]{background-color:#D1C3C3;
+							padding:8px;
+							outline: none;
+							border:none;
+							font-size: 17px;
+							width:10%;
+							cursor:pointer;
+							margin-top:4%;
+							margin-left: 45%;
+							text-align:center;
+							border-radius:6px;
+							}
+			/*表单的框框样式*/
+			#iframe-wrap{width: 50%;
+						margin: 0 auto;
+						background: #FFFFFF;
+						padding-left: 4%;
+						padding-right: 4%;
+						opacity:0.5;
+						box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+						border: none;
+						outline: none;
+						clear:both;
+						}
+			/*问卷调查标题*/
+			h1{text-align: center;
+			padding-top:3%;
+			color:#0A0909;
+			padding-bottom: 1%;}
+			/*分割线*/
+			hr{
+			color:#818080}
+			/*空格*/
+			br{line-height:200%;}
+			/*页脚*/
+			.footercopy{
+				color:white;
+				font-family:"Adobe 宋体 Std L";
+				font-size:12px;
+				margin-left:620px;
+				margin-top: 120px;
+				margin-bottom: 50px;
+			}
