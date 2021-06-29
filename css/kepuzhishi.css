@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+/*背景颜色*/
+			.bg{background:url("../201918340314-jinwenai-1401/img/umbrella.jpg")
+				
+		
+			}
+		    /*导航栏*/
+			ul {list-style-type:none;
+				margin:-5px;
+  				padding: 3px;
+  				overflow: hidden;
+				background:rgba(0,0,0,0.43);
+				
+			}
+			/*浮动方式*/
+			.left{float:left}
+			.right{float:right}
+			li {float: left;}
+			/*导航栏方块*/
+			li a {display:block;
+				  font-family:"思源黑体 CN Heavy";
+				  font-size:18px;
+  				  color:#A2A2A2;
+  				  padding: 8px 20px;
+				  text-align: center;
+  				  text-decoration: none;
+			}
+			/*当前停留导航栏字体颜色*/
+			li a:hover:not(.active) {color:#F6F6F6}
+						   .active {color:#F6F6F6}
+			/*书签*/
+			.Bookmarks ul{
+				  list-style-type: none;
+				  width: 480px;
+				  margin: 35px;
+				  padding: 11px;
+				  overflow:hidden;
+				  border:none;
+				  background-color: rgba(118,102,102,0.52);
+				}
+
+				.Bookmarks  li{
+				  float:left;
+				}
+
+				.Bookmarks  li a{
+				  display: block;
+				  color:#FFF6F6;
+				  text-align:justify;
+				  padding: 12px 13.5px;
+				  text-decoration: none;
+				}
+
+				.Bookmarks  li a:hover:not(.active){
+				  background-color:#967E64;
+				}
+
+				.Bookmarks li a.active{
+				  color:aliceblue;
+				}
+			
+			/*第一个框*/
+			.firstbox{
+				box-sizing:border-box;
+				float:inherit;
+				height: 800px;
+				width: auto;
+				padding: 115px;  
+				
+				background-color:rgba(214,193,193,0.80);
+			}
+			/*第二个框*/
+			.secbox{
+				box-sizing: border-box;
+				float:inherit;
+				height: 1300px;
+				width: auto;
+				padding: 120px;
+				background-color: rgba(238,223,223,0.54);
+				
+				
+			}
+			
+			/*文字框*/
+			.article{
+				width: 500px;
+				height: 800px;
+				float: left;
+				color:#261515;
+				font-family: "楷体";
+				font-size: 25px;
+				line-height: 1.5;
+				text-align:justify;
+				
+			}
+			/*只有文字居中*/
+			.span{
+				width: 700px;
+				height: 800px;
+				float: left;
+				color:#261515;
+				font-family: "楷体";
+				font-size: 25px;
+				line-height: 1.5;
+				text-align:justify;
+				margin-left: 290px;
+				
+			}
+			
+			/*月经时间图片框*/
+			.img{
+				float:none ;
+				width: 500px;
+				height: 400px;
+				display: inline-block;
+				padding: inherit;
+			}
+			/*右边图片框*/
+			.rightimg{
+				float:none;
+				width: 500px;
+				height: 400px;
+				display:inline-flex;
+				padding: inherit;
+			}
+			/*标题文字*/
+			.h1 {text-align: left;
+				color:#352828;
+				font-size: 25px;
+				font-weight: 800;
+			}
+			/*页脚*/
+			.footer{
+				color:white;
+				font-family:"Adobe 宋体 Std L";
+				font-size:12px;
+				margin-left:620px;
+				margin-bottom: 40px;
+				margin-top: 30px;
+			}
+	
